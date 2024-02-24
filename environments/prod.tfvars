@@ -1,6 +1,6 @@
 env = "prod"
 key_name = "albertleng-us-east-1-keypair"
-vpc_id = "vpc-02c3cea2893bac90f"
+#vpc_id = "vpc-02c3cea2893bac90f"
 sg_name = "albertleng-allow-http-https-ssh-traffic-ex-prd"
 ami_id = "ami-0e731c8a588258d0d"
 instance_type = "t2.micro"
