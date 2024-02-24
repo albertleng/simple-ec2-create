@@ -46,7 +46,7 @@ jobs:
         # Select terraform workspace
       - name: Terraform workspace new environment and select
         run: |
-          terraform workspace select ${{ github.event.inputs.environment }} || terraform workspace new ${{ github.event.inputs.environment }}
+          terraform workspace select dev || terraform workspace new dev
           terraform workspace list
 
       #terraform plan
